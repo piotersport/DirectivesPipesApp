@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'directives-pipes-app';
+  public LoremValue = 'LoremIpsum';
+  public zupa = 'EXAMPLE';
+  public JsonObject = {
+    properties: 'lorem'
+  };
+  public birthday = Date.now();
+  public isAuthenticated = false;
+  public persons: string[] = ['Krzysztof Siedlecki', 'Marcin Janiak', 'Robert Lewandowski', 'Krzysztof Bosak']
+  public lorem = 'lorem-ipsum-blablaaableh'
 }
